@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.main {
+    h2 {
+        font-size: 120%;
+        margin-left: @margin-normal;
+    }
+        
+    @media @mediadesktop {
+        font-size: @font-size;
+    }
+    @media @mediamobile {
+        font-size: @font-size * 2;
+    }
+}

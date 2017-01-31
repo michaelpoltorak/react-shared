@@ -1,0 +1,6 @@
+var config = require('../../config/conf.js');
+export const BASEPATH = config.BASEPATH;
+export const BASEURL = config.BASEURL;
+export const APP_TITLE = config.APP_TITLE;
+export const TT_SERVICES_PREFIX = config.TT_SERVICES_PREFIX;
+export const FR_SERVICES_PREFIX = config.FR_SERVICES_PREFIX;
