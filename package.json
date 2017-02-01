@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "clean":      "rimraf build",
-    "start":      "yarn build:dev && webpack-dev-server",
-    "build:dev":  "yarn clean && webpack --progress --color --profile --bail",
-    "build":      "yarn clean && webpack --env.mode=prod --progress --color --profile --bail"
+    "start":      "npm run build:dev && webpack-dev-server",
+    "build:dev":  "npm run clean && webpack --progress --color --profile --bail",
+    "build":      "npm run clean && webpack --env.mode=prod --progress --color --profile --bail"
   },
   "author": "",
   "license": "MIT",
