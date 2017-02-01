@@ -2,7 +2,7 @@
 
 Want to start using Redux with React? Look no more!
 
-## Installing dependencies
+## First
 
 Run ```yarn``` to install dependencies to the ```node_modules``` folder.
 
