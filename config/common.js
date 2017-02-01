@@ -1,3 +1,3 @@
 module.exports = {
-    APP_TITLE:'Generic Redux'
+    APP_TITLE:'Redux Starter'
 }

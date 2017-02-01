@@ -1,5 +1,5 @@
 {
-  "name": "generic-redux",
+  "name": "redux-starter",
   "version": "0.0.1",
   "description": "Basic react-redux project structure including localisation",
   "main": "index.js",
