@@ -1,4 +1,4 @@
 module.exports = function(env) {
-    
-    return require('./webpack/webpack.' + env.env + '.js')({ env: env.env })
+    var mode = env && env.mode || 'devel';
+    return require('./webpack/webpack.' + mode + '.js')();
 }

@@ -9,7 +9,7 @@ module.exports = function () {
         output: {
             path: path.join(__dirname, '../build'),
             filename: '[name].bundle.js',
-            publicPath: 'publicPath'
+            publicPath: '/build/'
         },
         resolve: {
             extensions: ['jsx', '.js', '.json'],

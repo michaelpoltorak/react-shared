@@ -1,8 +1,8 @@
 {
   "en": {
-    "foo":"baz"
+    "hello.world":"Hello world"
   },
   "da": {
-    "foo":"baz"
+    "hello.world":"Hej verden"
   }
 }
