@@ -6,7 +6,7 @@ import * as Config from '../../config/Config';
 class Header extends Component {
 
     render() {
-        const logo_src = Config.BASEURL + '/images/wii-logo.png';
+        const logo_src = Config.BASEURL + '/images/logo.png';
         return (
             <div className='header'>
                 <Link to='/'>

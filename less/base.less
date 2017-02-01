@@ -2,6 +2,34 @@ body {
     font-family: 'Arial', sans-serif;
 }
 .main {
+    .container {
+        padding: @padding-normal;
+        float: left;
+    }
+    .header {
+        width: 100%;
+        float: left;
+        border-bottom: 2px solid;
+        .title {
+            float: left;
+            text-align: center;
+            font-size: @font-size * 1.5;
+            padding-left: @padding-normal;
+        }
+        .selectLang {
+            float: right;
+            a {
+                cursor: hand;
+            }
+        }
+        .logo {
+            float: left;
+            img {
+                width: 100px;
+            }
+            
+        }
+    }
     h2 {
         font-size: 120%;
         margin-left: @margin-normal;
