@@ -6,13 +6,8 @@ module.exports = function () {
         entry: {
             'index': './src/index.js'
         },
-        output: {
-            path: path.join(__dirname, '../build'),
-            filename: '[name].bundle.js',
-            publicPath: '/build/'
-        },
         resolve: {
-            extensions: ['jsx', '.js', '.json'],
+            extensions: ['jsx', '.js', '.json', '.tsx'],
             modules: [path.join(__dirname, 'src'), 'node_modules']
 
         },

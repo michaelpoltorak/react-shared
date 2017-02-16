@@ -1,8 +1,10 @@
 {
   "en": {
-    "hello.world":"Hello world"
+    "hello.world":"Hello world",
+    "global.not_found": "Ups, that's a no-go!"
   },
   "da": {
-    "hello.world":"Hej verden"
+    "hello.world":"Hej verden",
+    "global.not_found": "Ups, det var en smutter..."
   }
 }
