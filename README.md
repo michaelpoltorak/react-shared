@@ -11,7 +11,7 @@ Run ```yarn``` to install dependencies to the ```node_modules``` folder.
 
 Do ```yarn start``` to build the files and start a development server on port 9001.
 
-Go to: localhost:9001:build to see the site
+Go to: <a href='localhost:9001:build'>localhost:9001:build/</a> to see the app.
 
 Do ```yarn build``` to build a production version in the  ```build``` folder.
 
