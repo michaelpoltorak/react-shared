@@ -11,11 +11,13 @@ import { setLocale } from '../actions/creators/global';
 class App extends React.Component {
     render() {
         // this.props.children gets components that are set up in the router (inside Root component)
+        var childrenWithProps = React.cloneElement(this.props.children, {messages:this.props.messages, actions: this.props.actions});
+
         return (
             <div className='main'>
                 <Header locale={this.props.locale} setLocale={this.props.actions.setLocale}/>
                 <Message messages={this.props.messages} />
-                {this.props.children}
+                {childrenWithProps}
             </div>
         )
     }
