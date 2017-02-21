@@ -8,8 +8,12 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = function () {
     return webpackMerge(commonConfig(), {
         devServer: {
+            proxy: {
+                "/spot-services": "http://localhost" // <- backend
+            },
+            host: '0.0.0.0',
             port: 9001,
-            hot:true,
+            inline: true,
             historyApiFallback: true
         },
         devtool: 'cheap-module-source-map',
