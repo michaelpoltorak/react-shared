@@ -24,10 +24,7 @@ export default class Root extends React.Component {
                             <Route path={BASEPATH} component={App}>
                                 <IndexRoute component={TestContainer} />
                                 <Route path='/foo' component={TestContainer} />
-                                <Route path='*' component={NotFound404} >
                             </Route>
-                            </Route>
-                            
                         </Router>
                         <DevTools />
                     </div>
