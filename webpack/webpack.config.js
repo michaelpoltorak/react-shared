@@ -41,6 +41,7 @@ const commonConfig = merge([
             new ExtractTextPlugin('styles.css'),
             new Dotenv({
                 path: './.env',
+                safe:'./.env-sample'
             }),
             new CopyWebpackPlugin([
                 { from: 'images', to: 'images' }
