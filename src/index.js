@@ -1,3 +1,6 @@
+if (module.hot) {
+  module.hot.accept()
+}
 import * as React from 'react';
 import { render } from 'react-dom';
 import Root from './containers/Root';

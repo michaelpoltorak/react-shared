@@ -12,7 +12,7 @@ import App from './App';
 import * as Config from '../config/Config';
 
 const store = configureStore();
-const BASEPATH = '/' + Config.BASEPATH;
+const BASE_PATH = '/' + process.env.BASE_PATH;
 
 export default class Root extends React.Component {
     render() {
@@ -21,9 +21,9 @@ export default class Root extends React.Component {
                 <ConnectedIntlProvider>
                     <div>
                         <Router history={browserHistory}>
-                            <Route path={BASEPATH} component={App}>
+                            <Route path={BASE_PATH} component={App}>
                                 <IndexRoute component={TestContainer} />
-                                <Route path='/foo' component={TestContainer} />
+                                <Route path='/build/foo' component={TestContainer} />
                             </Route>
                         </Router>
                         <DevTools />

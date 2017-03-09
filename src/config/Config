@@ -1,6 +1,6 @@
-var config = require('../../config/conf.js');
-export const BASEPATH = config.BASEPATH;
-export const BASEURL = config.BASEURL;
-export const APP_TITLE = config.APP_TITLE;
-export const TT_SERVICES_PREFIX = config.TT_SERVICES_PREFIX;
-export const FR_SERVICES_PREFIX = config.FR_SERVICES_PREFIX;
+export const BASE_PATH = process.env.BASE_PATH;
+export const BASE_URL = process.env.BASE_URL;
+export const IMAGES_PATH = process.env.IMAGES_PATH;
+export const APP_TITLE = process.env.APP_TITLE;
+export const TT_SERVICES_PREFIX = process.env.TT_SERVICES_PREFIX;
+export const FR_SERVICES_PREFIX = process.env.FR_SERVICES_PREFIX;

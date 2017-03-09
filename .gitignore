@@ -1,5 +1,10 @@
 .DS_Store
 .vscode
+.env
 yarn.lock
+TODO.txt
 build
 node_modules
+npm-debug.log
+dist
+webpack.old

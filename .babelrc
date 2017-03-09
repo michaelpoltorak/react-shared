@@ -9,7 +9,9 @@
             {
                 "messagesDir": "./build/messages",
                 "enforceDescriptions": false
-            }
+            },
+            "react-hot-loader/babel"
+            // Enables React code to work with HMR.
         ]
     ]
 }
