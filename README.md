@@ -9,9 +9,9 @@ Run ```yarn``` to install dependencies to the ```node_modules``` folder.
 
 ## Run the app
 
-Do ```yarn start``` to build the files and start a development server on port 9001.
+Do ```yarn start``` to build the files and start a webpack dev server on port 9003.
 
-Go to: <a href='localhost:9001:build'>localhost:9001:build/</a> to see the app.
+Go to: <a href='localhost:9003:build'>localhost:9003:build/</a> to see the app.
 
 Do ```yarn build``` to build a production version in the  ```build``` folder.
 
